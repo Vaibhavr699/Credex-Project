@@ -33,8 +33,8 @@ SoftSell is a fictional software license resale platform. This project is a resp
 - Features like Fast Payments, Security, Global Reach, and Business Support
 
 ### 4. ✅ Customer Testimonials
-- 2 dummy testimonials
-- Includes name, role, and company
+- 3 dummy testimonials
+- Includes name, role, and company and stars
 
 ### 5. ✅ Contact / Lead Capture Form
 - Fields: Name, Email, Company, License Type (Dropdown), Message
@@ -73,7 +73,7 @@ SoftSell is a fictional software license resale platform. This project is a resp
 ## 🧪 How to Run Locally
 
 ```bash
-git clone https://github.com/yourusername/softsell-marketing-site.git
-cd softsell-marketing-site
+git clone https://github.com/Vaibhavr699/Credex-Project.git
+cd SoftSell
 npm install
 npm run dev
