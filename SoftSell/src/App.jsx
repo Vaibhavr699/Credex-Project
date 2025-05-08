@@ -1,12 +1,11 @@
 // App.js
 import { useState, useEffect } from 'react';
 import Home from './pages/Home';
-import sunIcon from './assets/sunny.png';   // 🌞 Your custom sun image
-import moonIcon from './assets/moon.png'; // 🌙 Your custom moon image
+import sunIcon from './assets/sunny.png';
+import moonIcon from './assets/moon.png';
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(() => {
-    // Load from localStorage on first render
     const storedTheme = localStorage.getItem('theme');
     return storedTheme === 'dark';
   });
@@ -19,8 +18,6 @@ function App() {
       document.documentElement.classList.remove('dark');
       localStorage.setItem('theme', 'light');
     }
-
-    // Scroll to the top when the page is loaded (to prevent scroll issue)
     window.scrollTo(0, 0);
   }, [isDarkMode]);
 
@@ -37,7 +34,7 @@ function App() {
           className="w-6 h-6"
         />
       </button>
-      <Home isDarkMode={isDarkMode} /> {/* Pass isDarkMode to Home */}
+      <Home isDarkMode={isDarkMode} />
     </div>
   );
 }

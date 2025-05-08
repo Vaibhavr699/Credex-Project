@@ -21,18 +21,11 @@ const HowItWorks = () => {
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.6, delay: index * 0.3 }}
           >
-            {/* Step Number */}
             <div className="absolute top-[-10px] left-[-10px] bg-red-500 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold">
               {index + 1}
             </div>
-
-            {/* Step Icon */}
             <div className="text-4xl mb-4">{step.icon}</div>
-
-            {/* Step Title */}
             <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
-
-            {/* Step Description */}
             <p className="text-gray-600 dark:text-gray-300">{step.desc}</p>
           </motion.div>
         ))}

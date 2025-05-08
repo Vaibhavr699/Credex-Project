@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 
 const HeroSection = ({ isDarkMode }) => {
-  // Define a professional gradient for light and dark modes
   const bgGradient = isDarkMode
     ? "bg-gradient-to-tr from-gray-800 via-gray-900 to-black"
     : "bg-gradient-to-tr from-indigo-600 via-purple-600 to-pink-500";
@@ -24,7 +23,6 @@ const HeroSection = ({ isDarkMode }) => {
           stress-free with SoftSell.
         </p>
 
-        {/* Call to Action Button */}
         <a
           href="#contact"
           className="inline-block bg-white text-black font-semibold px-8 py-4 rounded-full shadow-md hover:bg-gradient-to-r hover:from-indigo-500 hover:to-sky-500 hover:text-white transition-all duration-300 ease-in-out transform hover:scale-110"

@@ -18,8 +18,8 @@ const WhyChooseUs = () => {
         {values.map((val, i) => {
           const isEven = i % 2 === 0;
           const rotatePattern = isEven
-            ? [0, 5, -5, 3, -3, 0]      // Clockwise then anti
-            : [0, -5, 5, -3, 3, 0];     // Anti-clockwise then clockwise
+            ? [0, 5, -5, 3, -3, 0]
+            : [0, -5, 5, -3, 3, 0];
 
           return (
             <motion.div
