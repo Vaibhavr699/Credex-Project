@@ -1,12 +1,79 @@
-# React + Vite
+# 🧾 SoftSell - One-Page Marketing Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SoftSell is a fictional software license resale platform. This project is a responsive, modern single-page marketing website built with React.js, Vite, and Tailwind CSS. It simulates a startup landing page to showcase services and collect lead information through a form.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [View Live on Vercel](https://credex-project-phi.vercel.app/)
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Framework**: React.js + Vite
+- **Styling**: Tailwind CSS
+- **Animation**: Framer Motion
+- **Hosting**: Vercel (or Netlify / GitHub Pages)
+
+---
+
+## 📦 Features Implemented
+
+### 1. ✅ Hero Section
+- Eye-catching headline and subheading
+- Primary CTA button: “Sell My Licenses”
+
+### 2. ✅ How It Works
+- Three visual steps:
+  - Upload License
+  - Get Valuation
+  - Get Paid
+- Includes icons and animations
+
+### 3. ✅ Why Choose Us
+- 4 animated cards using Framer Motion
+- Features like Fast Payments, Security, Global Reach, and Business Support
+
+### 4. ✅ Customer Testimonials
+- 2 dummy testimonials
+- Includes name, role, and company
+
+### 5. ✅ Contact / Lead Capture Form
+- Fields: Name, Email, Company, License Type (Dropdown), Message
+- Frontend validation with user-friendly error messages
+
+---
+
+## ✨ Bonus Features
+
+- ✅ Light/Dark mode toggle
+- ✅ Framer Motion animations on cards and section reveals
+- ✅ SEO-friendly meta tags and dynamic page title
+- ✅ Logo placeholder and favicon
+- ✅ Fully responsive for mobile, tablet, and desktop
+
+---
+
+## 🎨 Design Choices
+
+- **Font Family**: 'Outfit', modern and clean
+- **Color Palette**: Soft neutrals with subtle highlights to ensure accessibility in both light and dark modes
+- **Layout**: Grid and flex-based structure for responsiveness
+- **Animations**: Minimal but effective to improve user experience
+
+---
+## ⏱️ Time Spent
+
+- **Planning & Design**: 1 hour
+- **Development**: 4.5 hours
+- **Styling & Animations**: 1.5 hours
+- **Testing & Deployment**: 1 hour  
+**Total**: ~8 hours
+
+---
+
+## 🧪 How to Run Locally
+
+```bash
+git clone https://github.com/yourusername/softsell-marketing-site.git
+cd softsell-marketing-site
+npm install
+npm run dev
